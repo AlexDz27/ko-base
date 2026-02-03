@@ -1,0 +1,37 @@
+.section {
+
+}
+.section__title {
+  font-size: 2rem;
+}
+
+.section__body {
+  font-size: 1.1rem;
+}
+.section__body--scratch-movement {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3rem;
+  justify-content: space-between;
+}
+
+.section__body__title {
+  font-size: 1.4rem;
+}
+
+.section__body__figure {
+  margin-left: 0;
+}
+.section__body__figure figcaption {
+  color: rgb(120, 120, 120);
+  font-size: .9rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.section__body__warning {
+  display: inline-block;
+  font-weight: bold;
+  background-color: yellow;
+  border-bottom: 3px solid red;
+}
